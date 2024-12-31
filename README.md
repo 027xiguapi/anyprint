@@ -1,2 +1,2 @@
-# musical-octo-enigma
+# anyprint
 A flexible printing utility for web applications

@@ -1,0 +1,32 @@
+{
+  "name": "anyprint",
+  "version": "1.0.0",
+  "description": "A flexible printing utility for web applications",
+  "homepage": "",
+  "keywords": [
+    "print",
+    "anyprint", 
+    "web", 
+    "utility"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "author": "027xiguapi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:027xiguapi/anyprint.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rollup": "^2.79.1",
+    "jest": "^27.5.1",
+    "@types/jest": "^27.5.2"
+  }
+}
+
